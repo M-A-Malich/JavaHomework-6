@@ -16,7 +16,6 @@ class StatsServiceTest {
         long expected = 180;
 
         Assertions.assertEquals(expected, actual);
-
     }
 
     @Test
@@ -28,7 +27,6 @@ class StatsServiceTest {
         long expected = 180 / 12;
 
         Assertions.assertEquals(expected, actual);
-
     }
 
     @Test
@@ -40,7 +38,6 @@ class StatsServiceTest {
         long expected = 8;
 
         Assertions.assertEquals(expected, actual);
-
     }
 
     @Test
@@ -52,7 +49,6 @@ class StatsServiceTest {
         long expected = 9;
 
         Assertions.assertEquals(expected, actual);
-
     }
 
     @Test
@@ -64,7 +60,6 @@ class StatsServiceTest {
         long expected = 5;
 
         Assertions.assertEquals(expected, actual);
-
     }
 
     @Test
@@ -76,6 +71,5 @@ class StatsServiceTest {
         long expected = 5;
 
         Assertions.assertEquals(expected, actual);
-
     }
 }
